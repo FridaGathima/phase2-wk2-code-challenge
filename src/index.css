@@ -9,13 +9,14 @@
 .botarmy {
     width: 100%;
     height: 500px;
-    background-color: beige;
+    background-color: rgb(151, 200, 200);
     display: flex;
     padding: 20px;
     overflow-x: scroll;
     -ms-overflow-style: none; 
     scrollbar-width: none; 
-  overflow-y: scroll;
+    overflow-y: scroll;
+  
   
 }
 
@@ -33,18 +34,44 @@
 
 .allcard {
     width: 300px;
-    background-color: rgb(175, 245, 222);
     margin: 10px;
+    background-color: rgb(232, 226, 226);
+}
+
+.allcard.hover {
+    transition: transform 0.3s;
 }
 
 .allcard button {
     width: 100%;
     height: max-content;
-    background-color: red;
+    background-color: rgb(189, 48, 48);
     margin: 0px;
     padding: 10px;
     color: white;
     font-size: larger;
-    border-radius: 5px;
+    border-radius: 10px;
 
+
+}
+
+body {
+    background-color: rgb(110, 169, 169);
+}
+
+.header {
+    padding: 10px;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 80px;
+}
+
+.header2 {
+    text-align: center;
+    padding: 5px;  
+}
+
+.para {
+    text-align: center;
+    font-weight: bolder;
 }

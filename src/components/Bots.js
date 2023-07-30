@@ -2,7 +2,7 @@ import React from "react";
 import { useState, useEffect } from "react"
 import BotCollection from "./BotCollection";
 import YourBotArmy from "./YourBotArmy";
-
+import Header from "./Header";
 
 function Bots () {
 
@@ -59,6 +59,7 @@ function Bots () {
 
     return(
         <>
+            <Header />
             <YourBotArmy allArmyBots = {allArmyBots} removeBotFromArmy = {removeBotFromArmy} />
             <BotCollection allBots = {allBots} addBotToArmy = {addBotToArmy} deleteBot = {deleteBot} />
         </>
